@@ -1,3 +1,4 @@
+#declare storage xper:
 execute store result score xp xper run data get entity @s XpLevel
 scoreboard players set 100 xper 100
 #scoreboard players set set xper 10000
