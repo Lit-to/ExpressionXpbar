@@ -24,8 +24,8 @@ xper:{
 ## 使用例 / Example
 1.全てのプレイヤーの経験値を最大の20%に設定する。
 ```
-data modify storage xper: max 100
-data modify storage xper: value 20
+data modify storage xper: max set value 100
+data modify storage xper: value set value 20
 execute as @a run function xper: 
 ```
 # 目的・仕組み / Goal・Mechanism
