@@ -17,5 +17,5 @@ execute if data storage xper: {type:1} run scoreboard players operation st xper 
 
 scoreboard players reset at xper
 
-execute if score st xper matches ..100 run function xper:main
+function xper:main
 
